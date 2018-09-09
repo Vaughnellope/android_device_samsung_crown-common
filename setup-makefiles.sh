@@ -6,8 +6,8 @@ set -e
 
 # Required!
 VENDOR=samsung
-DEVICE_COMMON=star-common
-DEVICE="star2lte starlte"
+DEVICE_COMMON=crown-common
+DEVICE="crownlte"
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

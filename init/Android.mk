@@ -9,7 +9,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := \
     system/core/base/include \
     system/core/init
-LOCAL_SRC_FILES := init_star.cpp
-LOCAL_MODULE := libinit_star
+LOCAL_SRC_FILES := init_crown.cpp
+LOCAL_MODULE := libinit_crown
 
 include $(BUILD_STATIC_LIBRARY)

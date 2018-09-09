@@ -1,7 +1,7 @@
 # Copyright (C) 2018 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 
-COMMON_PATH := device/samsung/star-common
+COMMON_PATH := device/samsung/crown-common
 
 # Platform
 BOARD_VENDOR := samsung
@@ -78,8 +78,8 @@ TW_INCLUDE_FBE := true
 endif
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_star
-TARGET_RECOVERY_DEVICE_MODULES := libinit_star
+TARGET_INIT_VENDOR_LIB := libinit_crown
+TARGET_RECOVERY_DEVICE_MODULES := libinit_crown
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := false
@@ -132,4 +132,4 @@ endif
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
 # Inherit from the proprietary version
--include vendor/samsung/star-common/BoardConfigVendor.mk
+-include vendor/samsung/crown-common/BoardConfigVendor.mk
